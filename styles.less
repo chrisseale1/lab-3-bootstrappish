@@ -1,0 +1,337 @@
+@import 'variables.less';
+@import 'mixins.less';
+
+a {
+    text-decoration: none;
+    color: @main-lightblue;
+}
+#container {
+    width: 100%;
+    // max-width: 800px;
+    float: none;
+    text-align: center
+}
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+
+ul.nav {
+    background-color: @main-lightblue;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    color: white;
+    text-decoration: none;
+    margin-top: -5px;
+    margin-left: 0px;
+    padding: 0px 0px 0px 275px;
+    list-style: none;
+    z-index: 999999;
+    
+    
+    a {
+    text-decoration: none;
+    color: white;
+}
+//     .dropdown {
+//         color: white;
+//         background-color: @main-lightblue;
+//     }
+
+    .navbar-header {
+        color: white;
+        background-color: @main-lightblue;
+        text-align: center;
+    }
+
+    li.nav-categories {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        padding: 0px 10px 0px 10px;
+        text-align: center;
+        a:hover{
+            color: @hover-color; 
+        }
+    }
+}
+
+
+.container {
+    padding-top: 50px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    .name-box {
+        background-color:  white;
+        top: 0px;
+        left: 0px;
+        margin-bottom: 30px;
+        height: 30px;
+        border: 2px black;
+        text-align: center;
+        
+        .Name-heading {
+            color: black;
+            font-family: 'Candal', sans-serif;
+            font-size: 50px;
+            text-align: center;
+            top: 25px;
+            position: relative;
+        }
+    }
+    
+    #about-me {
+        background-color: white;
+        height: 40px;
+        width: 100%;
+        // top: 50px;
+        font-size: 25px;
+        border-top: solid 2px @main-lightblue;
+        border-bottom: solid 2px @main-lightblue;
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+    }
+        
+    #both-paragraphs {
+         height: 450px;
+        //  padding-top: 25px;
+         margin-left: 25px;
+         margin-right: 25px;
+         padding-bottom: 300px;
+         width: 100%;
+         position: relative;
+          
+         #left-paragraph {
+            margin-left: 50px;
+            height: 100px;
+            width: 40%;
+            padding-right: 25px;;
+            padding-bottom: 200px;
+            // float: left;
+         }
+         #right-paragraph {
+            margin-right: 75px;
+            height: 100px;
+            width: 40%;
+            padding-bottom: 200px;
+            // padding-left: 12.5px;
+            // top: 25px;
+            // float: right;
+         }
+    }
+     #skills {
+        background-color: white;
+        height: 40px;
+        width: 100%;
+        top: 50px;
+        font-size: 25px;
+        border-top: solid 2px @main-lightblue;
+        border-bottom: solid 2px @main-lightblue;
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+    }
+    #skills-paras {
+         height: 50px;
+         padding-top: 25px;
+         margin-left: 25px;
+         margin-right: 25px;
+         padding-bottom: 10px;
+         width: 100%;
+    
+        #left-paragraph {
+            margin-left: 50px;
+            height: 50px;
+            width: 40%;
+            padding-right: 25px;
+            // float: left;
+         }
+         #right-paragraph {
+            margin-right: 75px;
+            height: 50px;
+            width: 40%;
+            // top: 25px;
+            // float: right;
+         }
+     } 
+     
+     #projects {
+        background-color: white;
+        height: 40px;
+        width: 100%;
+        top: 50px;
+        font-size: 25px;
+        border-top: solid 2px @main-lightblue;
+        border-bottom: solid 2px @main-lightblue;
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+     }
+     #projects-paras {
+        padding-top: 25px;
+        margin-left: 75px;
+        margin-right: 75px;
+        padding-bottom: 2px;
+        width: 100%;
+        height: 200px;
+        
+        .paragraph-bold {
+            padding-top: 25px;
+            font-weight: bold;
+        }
+        .paragraph-regular {
+            margin-top: -18px;
+            margin-right: 150px
+        }
+    }
+    #experience {
+        background-color: white;
+        height: 40px;
+        width: 100%;
+        top: 50px;
+        font-size: 25px;
+        border-top: solid 2px @main-lightblue;
+        border-bottom: solid 2px @main-lightblue;
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+     }
+    #experience-paras {
+        margin-left: 75px;
+        padding-top: 5px;
+        height: 280px;
+    }
+        .paragraph-bold {
+            padding-top: 25px;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        .under-position-paragraphs {
+            margin-left: 10px;
+            margin-top: -20px;
+        }
+    #education {
+        background-color: white;
+        height: 40px;
+        width: 100%;
+        top: 50px;
+        font-size: 25px;
+        border-top: solid 2px @main-lightblue;
+        border-bottom: solid 2px @main-lightblue;
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+     }
+    #education-items {
+        margin-left: 75px;
+        padding-top: 15px;
+        height: 50px;
+    }
+
+    @font-face {
+        font-family: 'Seale-font';
+        src: url('fonts/Seale-font.ttf');
+}
+    
+    #contact-me {
+        background-color: white;
+        height: 40px;
+        width: 100%;
+        top: 50px;
+        font-family: Seale-font;
+        font-size: 15px;
+        border-top: solid 2px @main-lightblue;
+        border-bottom: solid 2px @main-lightblue;
+        position: relative;
+        text-align: center;
+        line-height: 50px;
+     }
+    .contact-container {
+        height: 350px;
+        margin-bottom: 100px;
+        
+        .contact-form {
+            .roundedCorners();
+            margin-top: 75px;
+            height: 415px;
+            width: 550px;
+            background-color: @main-lightblue;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font-size: 15px;
+            padding-top: 10%;
+            padding-left: 14%; 
+            
+            .user-field {
+                .roundedCorners();
+                width: 350px;
+                height: 30px;
+                font-size: 17px;
+                margin-bottom: 10px;
+            } 
+            .user-message {
+                width: 350px;
+                height: 100px;
+                .roundedCorners();
+            }  
+            .send-button {
+                .roundedCorners();
+                background-color: white;
+                margin-top: 10px;   
+                width: 357px;
+                height: 37px;
+                color: @main-lightblue;
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+        .space {
+            height: 40px;
+            width: 100%;
+            border-bottom: solid @main-lightblue;
+        }
+    }    
+
+#footer {
+        margin-top: -50px;
+        height: 50px;
+        color: @main-lightblue;
+        margin-bottom: 5px;
+        text-decoration: none;
+        
+        a {
+            text-decoration: none;
+            color: @main-lightblue;
+        }
+            .Github {
+            margin-left: 290px;
+            font-size: 15;
+            color: @main-lightblue;
+            padding-right: 7.5px;
+            float: left;
+            }
+            .LinkedIn {
+            margin-right: 290px;
+            font-size: 15;
+            color: @main-lightblue;
+            padding-left: 7.5px;
+            float: right;
+            }
+        .copyright {
+            clear: both;
+            font-size: 13px;
+            color: @main-lightblue;
+            padding-top: -10px;
+            text-align: center;
+        }
+    }
+}  
+

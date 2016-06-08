@@ -1,0 +1,16 @@
+.roundedCorners(@radius: 5px) {
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.reverseHover { 
+     text-decoration:none; 
+     &:hover { text-decoration:none; } 
+}
+
+.read-more { 
+     a { 
+          .reverseHover 
+     }
+}
